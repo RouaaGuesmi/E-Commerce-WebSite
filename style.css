@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Lora&family=Nanum+Brush+Script&family=Roboto&display=swap');
+
+
+body {
+    background-image:url("images/back.jpg");
+    font-family: 'Nanum Brush Script', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity:90%;
+    font-family: "Open Sans", sans-serif;
+    color: #43074fd9;
+    
+  }
+ 
+
+
+
+  .box-form {
+    margin: 0 auto;
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #6f0c835b;
+  }
+  
+  .box-form div {
+    height: auto;
+  }
+  .box-form .left {
+    color: #ffffff96;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .box-form .left .overlay {
+    padding: 80px;
+    width: 100%;
+    height: 100%;
+    background: #751692dc;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .box-form .left .overlay h1 {
+    font-size: 150px;
+    line-height: 1;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Nanum Brush Script', cursive;
+    text-align: center;
+    
+   
+  }
+ 
+
+
+
+
+
+
+  .box-form .right {
+    padding: 100px;
+    overflow: visible;
+  }
+  
+  .box-form .right h5 {
+    font-size: 6vmax;
+    line-height: 0;
+    font-family: monospace;
+    letter-spacing: 2px;
+    
+    
+  }
+  .box-form .right p {
+    font-size: 14px;
+    color: #B0B3B9;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+
+  .box-form .right .inputs {
+    overflow: hidden;
+  }
+
+  .box-form .right input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #B0B3B9;
+  }
+
+
+  label {
+    display: block;
+    position: relative;
+    margin-left: 30px;
+  }
+  
+ 
+
+ 
+  h3{
+    color: #660e6b;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+  }
+  h4{
+    color:lightgray;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding-top: 30px;
+    line-height: 50px;
+    font-family: monospace;
+    text-align: center;
+  }
+ 
+
+.btn{
+  display: inline-block;
+  background: #6a119e;
+  color: #fff;
+  padding: 8px 40px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 35px;
+  border-radius: 50px;
+ 
+ 
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 4px 20px 0px #b30e81a6;
+    
+
+}   
+a{
+  text-decoration: none;
+}

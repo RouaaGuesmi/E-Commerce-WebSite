@@ -1,0 +1,265 @@
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Baumans&family=Lora&family=Nanum+Brush+Script&family=Roboto&display=swap');
+
+
+
+
+
+
+
+body {
+    background-image:url("images/back.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 20px;
+    
+    font-family: "Roboto";
+    color: #E0AAFF;
+    border-color: #240046;
+    margin-bottom: 0%;
+
+
+}
+
+#bar{
+    background-color: rgba(255, 255, 255, 0.543);;
+    border:  1px ;
+    width: auto;  
+    text-align: left; 
+    
+}
+#lign{
+    background-color: rgba(74, 17, 110, 0.79);
+    width:auto;  
+    height: 2px;
+     
+
+}
+main{
+    font-size: 20px;
+    font-family: monospace;
+    color: #6a119e;
+    border-color: #240046;
+    margin-bottom: 0%;
+    background-color: rgba(255, 255, 255, 0.543);
+    border:  1px ;
+    width: auto;   
+    padding: 20px;
+
+
+}
+.top{
+    align-items: left;
+    font-size: 22px;
+    font-style: blod;
+    margin: 5px;
+    padding-top:4%;
+    padding: 4%;
+    float:right;
+    display: flex;
+    width: 71%;
+    letter-spacing: 1px;
+
+   
+}
+.top input[type=text] {
+    float: right;
+    border: 1px solid #ccc;
+    display: block;
+    margin-right: 16px;
+    font: size 18px}
+   
+   
+  
+footer{
+
+    
+    letter-spacing: 3px;
+    position: relative;
+    margin: 0px auto;
+    background-color: #23083cad;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: autos;
+    height:30%;
+    margin: auto;
+    text-align: left ;
+    text-transform: uppercase;
+
+
+}
+#about{
+    align-items: center;
+    float: left;
+    font-size: 30px;
+    
+}
+a{
+    color: rgb(50, 18, 79);
+    font-style: bold ;
+    text-decoration: none;
+    
+}
+p{
+    font-size: medium;
+    
+}
+.vl {
+    border-left: 3px solid rgba(255, 182, 193, 0.24);
+    height: 95%;
+    
+    position: absolute;
+    left: 57%;
+
+  }
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.col{
+    flex-basis: 20%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition:transform 0.5s;
+}
+.col img{
+    width: 100%;
+}
+.container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:10px;
+    padding-bottom:10px ;
+    color: rgba(33, 3, 55, 0.742);
+    
+}  
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:10px;
+    padding-bottom:10px ;
+    color: rgba(33, 3, 55, 0.742);
+    
+
+    border: #6b10a07e solid;
+}  
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+ h5{
+    margin:55px;
+    color: #520f44;
+    
+ }
+ .col:hover{
+    transform: translateY(-20px);
+ }
+.btn{
+    display: inline-block;
+    background: #6a119e;
+    color: #fff;
+    padding: 8px 40px;
+    border-radius: 30px;
+
+}   
+.btnn{
+    display: inline-block;
+    background: #823eaa6b;
+    color: #fff;
+    padding: 8px 40px;
+    border-radius: 20px;
+
+}   
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .centerr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  #goodfor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+    opacity: 90%;
+    height:50% ;
+  }
+
+  .central{
+
+    align-items: center;
+
+  }
+  .article{
+     font-size: 25px; 
+     font-style: italic;
+     line-height: 50px;
+     font-stretch: expanded;
+     font-family: 'lora','Courier New', Courier, monospace;
+     padding: 100px;
+      margin: 50px;
+      color: #240046d7;
+      letter-spacing: 3px;
+      word-spacing: 3px;
+      text-indent: 5px;
+      
+  }
+
+
+h2{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 80px;
+    text-decoration: underline rgba(89, 17, 140, 0.591);
+    color:rgba(33, 3, 55, 0.742);
+    align-items: center;
+
+
+  }
+
+.art{
+    border: #6a119e54 solid;
+    padding: 30px;
+}
+
+.about{
+    columns: 6;
+    column-rule: 4px solid #23083c62;
+    align-items: center;
+    break-inside: avoid;
+    break-before: avoid;
+    padding: 2rem;
+    
+    /* display: flex; */
+    justify-content: space-evenly;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-indent: 5px;
+    color: #23083cad;
+
+}

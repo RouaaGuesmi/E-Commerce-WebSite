@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Africa/Tunis
+X-LIC-LOCATION:Africa/Tunis
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Africa/Tunis:20230215T100000
+DTEND;TZID=Africa/Tunis:20230215T110000
+DTSTAMP:20230213T145347Z
+ORGANIZER;CN=salah.bousbia@esprit.tn:mailto:salah.bousbia@esprit.tn
+UID:2jv7p9builnfmbf5totg0dnoer@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=rouaa.guesmi@esprit.tn;X-NUM-GUESTS=0:mailto:rouaa.guesmi@esprit.tn
+X-GOOGLE-CONFERENCE:https://meet.google.com/pva-uixc-eqo
+X-MICROSOFT-CDO-OWNERAPPTID:1420345877
+CREATED:20230213T145344Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/pv
+ a-uixc-eqo\nOr dial: (US) +1 440-462-2946 PIN: 389752119#\n\nLearn more abo
+ ut Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do 
+ not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230213T145343Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Présentation-Beijing Polytechnic-Chine
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

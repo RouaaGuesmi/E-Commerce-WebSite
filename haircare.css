@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+body {
+    background-image:url("hair.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 20px;
+    font-family: 'Baumans', cursive;
+    color: #E0AAFF;
+    border-color: #240046;
+    margin-bottom: 0%;
+
+
+}
+
+#bar{
+    background-color: rgba(255, 255, 255, 0.543);;
+    border:  1px ;
+    width: auto;  
+    text-align: left; 
+    
+}
+#lign{
+    background-color: rgba(74, 17, 110, 0.79);
+    width:auto;  
+    height: 2px;
+     
+
+}
+main{
+    font-size: 20px;
+    color: #6a119e;
+    border-color: #240046;
+    margin-bottom: 0%;
+    background-color: rgba(255, 255, 255, 0.543);
+    border:  1px ;
+    width: auto;   
+    padding: 20px;
+
+
+}
+.top{
+    align-items: left;
+    font-size: 22px;
+    font-style: blod;
+    margin: 5px;
+    padding-top:4%;
+    padding: 4%;
+    float:right;
+    display: flex;
+    width: 71%;
+    letter-spacing: 1px;
+
+   
+}
+.top input[type=text] {
+    float: right;
+    border: 1px solid #ccc;
+    display: block;
+    margin-right: 16px;
+    font: size 18px}
+#research{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    
+
+    }
+
+footer{
+
+    
+    letter-spacing: 3px;
+    position: relative;
+    margin: 0px auto;
+    background-color: #23083cad;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: autos;
+    height:30%;
+    margin: auto;
+    text-align: left ;
+    text-transform: uppercase;
+
+
+}
+#about{
+    align-items: center;
+    float: left;
+    font-size: 30px;
+    
+}
+a{
+    color: rgb(48, 7, 86);
+    font-style: bold ;
+    text-decoration: none;
+    
+}
+p{
+    font-size: medium;
+    
+}
+.vl {
+    border-left: 3px solid rgba(255, 182, 193, 0.24);
+    height: 95%;
+    
+    position: absolute;
+    left: 57%;
+
+  } 
+video {
+        
+        
+        width: 50%;
+        height: auto;
+       
+}

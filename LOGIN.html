@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Our Login Page</title>
+
+
+<script src="form.js"></script>
+<link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+
+<div class="box-form">
+	<div class="left">
+		<div class="overlay">
+		<h1> Lumen Pura </h1>
+		<br>
+		<h3>Welcome to Lumen Pura, your go-to destination for premium beauty products .</h3>
+             
+           <h4>We believe that everyone deserves to feel confident and beautiful, which is why we offer a curated selection of 
+              the best beauty products from around the world.</h4>
+		</div>
+	</div>
+	
+	
+		<div class="right">
+		<h5>Login</h5>
+
+		<p>Don't have an account? 
+        <br>
+            <a>Your Account it takes less than a minute</a> </p>
+			
+			
+			
+			
+			<form action="" id="loginForm"  onsubmit="return valider()">
+		 <div class="inputs">
+			<input type="text" id="username"  placeholder="Username" maxlength="20" size="20">
+			<br>
+			<input type="password" id="password"  placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain at least one  number and one 
+            uppercase and lowercase letter, and at least 8 or more characters">
+
+			<button type="submit" class="btn" onclick = "window.location.href='Home.html';"> Login</button>
+			
+		</form>
+
+		</div>
+			
+			
+    
+			<p>Forget password?</p>
+			<br>
+			
+		
+			
+		</div>
+			
+			<br>
+			
+			
+			
+	</div>
+	
+	
+</div>
+
+
+  
+</body>
+</html>
